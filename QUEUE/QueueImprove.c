@@ -38,7 +38,7 @@ void showIn() {
   if (topIn == -1) {
     printf("Kosong");
   } else {
-    for (int i = 0; i <= topIn; i++) {
+    for (int i = topIn; i >= 0; i--) {
       printf("%d ", in[i]);}}
       printf("\n");}
 
@@ -65,7 +65,7 @@ int main() {
   printf("1 = Masukkan antrian\n");
   printf("2 = Panggil / dequeue\n");
   printf("3 = Lihat antrian depan\n");
-  printf("4 = Lihat antrian depan\n");
+  printf("4 = Lihat berapa orang yang sudah dilayani\n");
   printf("0 = Keluar program\n");
   printf("============================\n");
   while (1) {
