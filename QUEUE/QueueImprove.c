@@ -48,7 +48,7 @@ void showOut() {
   if (topOut == -1) {
     printf("Kosong");
   } else {
-    for (int i = 0; i <= topOut; i++) {
+    for (int i = topOut; i >= 0; i--) {
       printf("%d ", out[i]);}}
       printf("\n");}
   

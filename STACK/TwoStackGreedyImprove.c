@@ -34,14 +34,14 @@ int twostack(int maxSum, int a[], int n, int b[], int m) {
     if (sum <= maxSum && (ta + tb) > best) {
       best = ta + tb;
       bestTa = ta;
-      bestTb = tb;
+      bestTb = tb;//}}
 // simpan snapshot terbaik
     for (int x = 0; x < ta; x++) {
         bestA[x] = tempA[x];}
     for (int x = 0; x < tb; x++) {
         bestB[x] = tempB[x];}}}
 
-// output final
+//output final
   printf("\nTotal Elemen = %d\n", best);
   printf("{ ");
   for (int x = 0; x < bestTa; x++) {
@@ -50,6 +50,14 @@ int twostack(int maxSum, int a[], int n, int b[], int m) {
     printf("%d ", bestB[x]);}
     printf("}\n");
 
+   /* KALAU TIDAK ADA BEST
+   printf("\nTotal Elemen = %d\n", best);
+  printf("{ ");
+  for (int x = 0; x < ta; x++) {
+    printf("%d ", tempA[x]);}
+  for (int x = 0; x <tb; x++) {
+    printf("%d ", tempB[x]);}
+    printf("}\n");*/
 return best;
 }
 

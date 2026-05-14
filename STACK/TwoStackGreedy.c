@@ -30,17 +30,16 @@ int twoStacks(int maxSum, int a[], int n, int b[], int m) {
             count = i + j;
         }
     }
-
     return count;
 }
 
 int main() {
-    int maxSum = 7;
+    int maxSum = 10;
 
-    int a[] = {3, 5, 2};
-    int b[] = {1, 1, 1};
+    int a[] = {3,4,2,1};
+    int b[] = {6, 7, 8};
 
-    int n = 3, m = 3;
+    int n = 4, m = 3;
 
     int result = twoStacks(maxSum, a, n, b, m);
 
