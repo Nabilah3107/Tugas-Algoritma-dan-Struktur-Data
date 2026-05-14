@@ -60,8 +60,7 @@ void served(){
 int main() {
   int type;
   printf("\t\t\tKAMU SEBAGAI KASIR\n");
-  printf("\n============================\n");
-  printf("\n============TYPE============\n");
+  printf("============TYPE============\n");
   printf("1 = Masukkan antrian\n");
   printf("2 = Panggil / dequeue\n");
   printf("3 = Lihat antrian depan\n");
@@ -104,7 +103,7 @@ int main() {
       showOut();
       printFront();}
     
-  // Meliht Jumlh yng sudah dilayani
+  // Meliht Jumlah yang sudah dilayani
     else if (type == 4) {
       served();printf("\n");}
           

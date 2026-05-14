@@ -36,7 +36,7 @@ int twoStacks(int maxSum, int a[], int n, int b[], int m) {
 int main() {
     int maxSum = 10;
 
-    int a[] = {3,4,2,1};
+    int a[] = {4,3,2,1};
     int b[] = {6, 7, 8};
 
     int n = 4, m = 3;

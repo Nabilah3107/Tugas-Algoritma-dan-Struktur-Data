@@ -73,7 +73,7 @@ int main() {
   scanf("%d", &m);
 
   printf("\nMasukkan (push) elemen stack 1:\n");
-  for (int i = 0; i < n; i++) {
+  for (int i = 0; i < n; i++) { 
     printf("ke %d = ", i + 1);
     scanf("%d", &a[i]);}
 
