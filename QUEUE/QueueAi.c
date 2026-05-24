@@ -30,10 +30,10 @@ void printFront() {
 }
 
 int main() {
-    int Q;
-    scanf("%d", &Q);
+    int q;
+    scanf("%d", &q);
 
-    while (Q--) {
+    while (q--) {
         int type;
         scanf("%d", &type);
 

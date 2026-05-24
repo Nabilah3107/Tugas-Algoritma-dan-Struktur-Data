@@ -68,7 +68,7 @@ int main() {
   printf("0 = Keluar program\n");
   printf("============================\n");
   while (1) {
-    printf("Masukkan type: ");
+    printf("\nMasukkan type: ");
     scanf("%d", &type);
     // EXIT
       if (type == 0) {break;}
@@ -89,8 +89,6 @@ int main() {
       
   // SHIFT + DEQUEUE
     else if (type == 2) {
-      printf("\nSEBELUM KELUAR DARI RUANG TUNGGU (SHIFT) = \n");
-      showIn();
       shift();
       printf("SETELAH KELUAR DARI RUANG TUNGGU (OUT) = \n");
       showOut();
@@ -98,9 +96,6 @@ int main() {
         
   // PRINT FRONT
     else if (type == 3) {
-      shift();
-      printf("\nSETELAH SHIFT KE OUT\n");
-      showOut();
       printFront();}
     
   // Meliht Jumlah yang sudah dilayani
